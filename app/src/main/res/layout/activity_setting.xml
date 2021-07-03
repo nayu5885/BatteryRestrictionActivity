@@ -14,6 +14,7 @@
         android:layout_weight="1"
         android:gravity="center_vertical"
         android:text="設定画面"
+        android:textColor="#808080"
         android:textSize="48sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,6 +45,7 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:text="バッテリー使用上限"
+                android:textColor="#808080"
                 android:textSize="44sp" />
 
         </LinearLayout>
@@ -62,7 +64,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:textColor="#808080" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -97,7 +100,8 @@
                 android:layout_weight="1.5"
                 android:ems="10"
                 android:hint="メッセージを書こう！"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="#808080" />
         </LinearLayout>
 
         <LinearLayout
