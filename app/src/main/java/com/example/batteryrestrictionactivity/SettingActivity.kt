@@ -3,9 +3,9 @@ package com.example.batteryrestrictionactivity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class TitleActivity : AppCompatActivity() {
+class SettingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_title)
+        setContentView(R.layout.activity_setting)
     }
 }

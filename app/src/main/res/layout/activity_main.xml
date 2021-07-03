@@ -4,18 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CCFFCC	"
+    android:background="#FFFCF0"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button2"
         android:layout_width="228dp"
         android:layout_height="65dp"
-        android:background="#A67D53"
         android:text="はじめよう！"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:backgroundTint="#65cdaa"
+        app:backgroundTint="#79BD9A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -24,9 +23,9 @@
         app:layout_constraintVertical_bias="0.939" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="239dp"
-        android:layout_height="399dp"
+        android:id="@+id/imageView"
+        android:layout_width="236dp"
+        android:layout_height="390dp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,12 +39,12 @@
         android:fontFamily="@font/candal"
         android:gravity="center"
         android:text="スマホ制限（仮称）"
-        android:textColor="#ffffeb"
+        android:textColor="#79BD9A"
         android:textSize="38sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintVertical_bias="0.066" />
 </androidx.constraintlayout.widget.ConstraintLayout>
