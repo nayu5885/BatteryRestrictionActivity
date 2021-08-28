@@ -11,10 +11,11 @@
         android:id="@+id/textView8"
         android:layout_width="86dp"
         android:layout_height="71dp"
-        android:text="TextView"
+        android:text="成功"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
