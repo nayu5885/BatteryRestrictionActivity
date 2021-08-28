@@ -1,13 +1,11 @@
-package com.example.batteryrestrictionactivity
+package com.nayu.batteryrestrictionactivity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class ManualActivity : AppCompatActivity() {
+class SafeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_manual)
-
-
+        setContentView(R.layout.activity_safe)
     }
 }

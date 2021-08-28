@@ -1,4 +1,4 @@
-package com.example.batteryrestrictionactivity
+package com.nayu.batteryrestrictionactivity
 
 import org.junit.Test
 

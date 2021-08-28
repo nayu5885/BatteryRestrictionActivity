@@ -58,14 +58,16 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/editTextNumber"
+                android:id="@+id/numberEditText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:ems="10"
+                android:gravity="bottom|center"
                 android:inputType="number"
-                android:textColor="#808080" />
+                android:textColor="#808080"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -94,7 +96,7 @@
                 android:textSize="44sp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/editTextMessage"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1.5"
@@ -112,7 +114,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/StartButton"
                 android:layout_width="233dp"
                 android:layout_height="79dp"
                 app:backgroundTint="#79BD9A"
